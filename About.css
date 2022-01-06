@@ -1,0 +1,63 @@
+.about {
+    display: flex;
+}
+
+.about__title {
+    color: white;
+ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding-top: 50px;
+    
+   
+    
+}
+
+
+.about__title:after {
+    content: ""; 
+    display: block; 
+    
+    width: 20%; 
+    padding-top: 20px; 
+    border-bottom: 0.10px solid slategray;
+}
+
+.about__descr {
+    display: flex;
+    color: whitesmoke;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.about__info {
+    display: flex;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.about__skills {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    @media only screen and (max-width: 414px) {
+        .deviceWidth {width:280px!important; padding:0;}	
+        .center {text-align: center!important;}	 
+          }
+    
+}
+
+.about__skills > img {
+   
+    max-width: 100%;
+    
+    
+}
+
+
+
+
+
